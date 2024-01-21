@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;400;700&display=swap");
+:root {
+  --orange: hsl(26, 100%, 55%);
+  --pale-orange: hsl(25, 100%, 94%);
+  --very-dark-blue: hsl(220, 13%, 13%);
+  --dark-grayish-blue: hsl(219, 9%, 45%);
+  --grayish: hsl(220, 14%, 75%);
+  --light-grayish-blue: hsl(223, 64%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+}
+
+.content {
+  margin: 1rem 1rem;
+  text-align: left;
+  font-family: "Kumbh Sans";
+}
+
+h3 {
+  color: var(--orange);
+  font-weight: 700;
+}
+.content-h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+}
+.content-para1 {
+  font-size: 1.5em;
+}
+.price {
+  display: flex;
+
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.price > h1 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.price-h5 {
+  margin-right: auto;
+  background-color: var(--pale-orange);
+  color: var(--orange);
+}
+.price-h5 > h5 {
+  margin: 0.3rem 1rem;
+  font-weight: 700;
+}
+.price > p {
+  color: var(--grayish);
+  text-decoration: line-through;
+}
+.btn1 {
+  margin-top: 1.4rem;
+  background-color: var(--light-grayish-blue);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+
+.btn1 > span {
+  color: var(--orange);
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+.cart-content {
+  margin-top: 1.4rem;
+  width: 100%;
+  height: 4rem;
+  background-color: var(--orange);
+  color: var(--white);
+  border-style: none;
+  border-radius: 1rem;
+  font-family: 700;
+}
+
+.cart-content > span > img {
+  padding-right: 1rem;
+  height: 1.5rem;
+  filter: invert(1%) sepia(1%) saturate(2%) hue-rotate(1deg) brightness(1000%)
+    contrast(80%);
+}
